@@ -14,9 +14,12 @@ def Main():
         print("received from server " + str(data))
         message = input("-->")
     s.close()
+    
 
 if __name__ == '__main__':
     Main()
+
+
 
 
     
