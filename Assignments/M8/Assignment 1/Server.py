@@ -1,4 +1,5 @@
 import socket
+
 def Main():
     host = '127.0.0.1'
     port = 5000
@@ -19,6 +20,7 @@ def Main():
         print("sending: "+str(res))
         c.send(str(res).encode())
     c.close()
+    
 if __name__ == '__main__':
     Main()
 
