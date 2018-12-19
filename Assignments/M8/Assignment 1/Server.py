@@ -20,7 +20,6 @@ def Main():
         print("sending: "+str(res))
         c.send(str(res).encode())
     c.close()
-    
 if __name__ == '__main__':
     Main()
 
